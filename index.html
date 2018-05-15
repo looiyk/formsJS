@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Javascript quiz</title>
+		<link rel="stylesheet" href="css/styles.css">
+		<script src="js/script.js"></script>
+	</head>
+	<body>
+		<div id="container">
+			<header>
+				<h1>Simple Javascript Quiz</h1>
+				<p>Test your knowledge in <strong>JavaScrit Fundamentals</strong></p>
+			</header>
+			<section>
+				<div id="results">
+					<form name="quizForm1" onsubmit="return submitAnswers()">
+						<h3>1. In which HTML element do we put in Js Code?</h3>
+						<input type='radio' name='q0' value="A" id="q0a">A. &lt;script&gt;<br>
+						<input type='radio' name='q0' value="B" id="q0b">B. &lt;head&gt;<br>
+						<input type='radio' name='q0' value="C" id="q0c">C. &lt;body&gt;<br>
+						<input type='radio' name='q0' value="D" id="q0d">D. &lt;link&gt;<br>
+					
+						<h3>2. How would you write "Hello" in an alert box</h3>
+						<input type='radio' name='q1' value="A" id="q1a">A. msg('Hello');<br>
+						<input type='radio' name='q1' value="B" id="q1b">B. alert('Hello');<br>
+						<input type='radio' name='q1' value="C" id="q1c">C. document.write('Hello');<br>
+						<input type='radio' name='q1' value="D" id="q1d">D. alertBox('Hello');<br>
+
+						<h3>3. Js is directly related to Java</h3>
+						<input type='radio' name='q2' value="A" id="q2a">A. True<br>
+						<input type='radio' name='q2' value="B" id="q2b">B. False<br>
+
+						<h3>4. Which HTML attribute is used to reference an external JavaScript file?</h3>
+						<input type='radio' name='q3' value="A" id="q3a">A. src<br>
+						<input type='radio' name='q3' value="B" id="q3b">B. rel<br>
+						<input type='radio' name='q3' value="C" id="q3c">C. type<br>
+						<input type='radio' name='q3' value="D" id="q3d">D. href<br>
+
+						<h3>5. What is my name?</h3>
+						<input type='radio' name='q4' value="A" id="q4a">A. Ajax<br>
+						<input type='radio' name='q4' value="B" id="q4b">B. Wade<br>
+						<input type='radio' name='q4' value="C" id="q4c">C. Francis<br>
+						<input type='radio' name='q4' value="D" id="q4d">D. Deadpool<br>
+
+						<input type="submit" value="Submit Answers">
+					</form>
+				</div>
+			</section>
+			<footer>
+				<p> Copyright &copy; 2014, All Rights Reserve</p>
+			</footer>
+		</div>
+	</body>
+
+</html>
